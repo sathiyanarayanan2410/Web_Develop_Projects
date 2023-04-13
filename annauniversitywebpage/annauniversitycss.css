@@ -20,7 +20,7 @@
 #email
 {
     background-color: red;
-    padding:3px 10px;
+    padding:5px 15px;
     border-radius: 15px;
 }
 #logo{
@@ -48,7 +48,6 @@
     padding-bottom: 300px;
 }
 p{
-    color:darkcyan;
     font-weight:600;
     padding:0px 0px 20px 300px;
     font-size: 18px;
@@ -85,4 +84,28 @@ div ul li
 select
 {
     border:0px;
+}
+#newsevents
+{
+    display: flex;
+}
+#newsevents #nediv1
+{
+    background-color: rgb(36, 144, 163);
+    color: white;
+    padding:12px;
+}
+#newsevents #nediv2 p
+{
+    background-color:rgb(251, 163, 163);
+    color: black;
+    font-size: 16px;
+    font-weight: 480;
+    padding: 10px 29px 14px 400px;
+}
+#home
+{
+    height:20px;
+    width:45px;
+    padding-right: 8px;
 }
