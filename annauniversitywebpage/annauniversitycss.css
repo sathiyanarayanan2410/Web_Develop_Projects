@@ -6,16 +6,16 @@
 #first{
     background-color:rgb(35, 35, 105);
     display:flex;
+    font-size: 17px;
 }
 #first ul{
     list-style-type: none;
-    padding-left: 700px;
+    padding-left: 500px;
 }
 #first ul li{
     float:left;
     color:white;
     margin: 15px 15px;
-    font-size: 23px;
 }
 #email
 {
@@ -24,21 +24,21 @@
     border-radius: 15px;
 }
 #logo{
-    padding:0 600px;
+    padding:0 350px;
     width:800px;
-    height:100px;
+    height:90px;
 }
 #second ul{
     list-style-type: none;
     display: flex;
-    padding-left: 250px;
+    padding-left: 120px;
+    font-size: 15px;
 }
 #second ul li{
     text-decoration: none;
     color:black;
-    font-size: 18px;
     font-weight: 600;
-    padding:20px 20px;
+    padding:10px 10px;
 }
 #uni{
     background-image: url("https://www.annauniv.edu/images/main-slider/slide1.jpeg");
@@ -49,39 +49,40 @@
 }
 p{
     color:darkcyan;
-    font-size:25px;
     font-weight:600;
-    padding:0px 0px 20px 400px;
+    padding:0px 0px 20px 300px;
+    font-size: 18px;
 }
 div p
 {
     color:white;
-    padding-left:500px;
+    padding-left:350px;
+    font-size: 22px;
 }
 div ul{
     text-decoration: none;
     list-style-type: none;
     color: white;
-    font-size: 20px;
-    background-image: linear-gradient(rgb(199, 5, 118),rgb(12, 134, 191));
-    width:125px;
+    font-size: 15px;
+    background-image: linear-gradient(rgb(199, 5, 118),rgb(32, 179, 186));
     border-radius:15px;
-    margin-top: 200px;
 }
 div ul li
 {
-    padding:5px;
-}
-#icon{
-    margin-top: 200px;;
+    padding:7px;
 }
 #icon img{
-    width:70px;
+    width:55px;
     height:50px;
-    border-radius: 25px;
+    border-radius: 20px 0px 0px 20px;
 }
 #con
 {
     display: flex;
     justify-content: space-between;
+    padding-top: 125px;
+}
+select
+{
+    border:0px;
 }
