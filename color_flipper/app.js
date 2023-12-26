@@ -8,7 +8,7 @@ btn.addEventListener('click',function()
 {
     let i = getrandnum();
     document.body.style.backgroundColor  = colors[i];
-    col.innerHTML = colors[i];
+    col.innerHTML = " \" " + colors[i] + " \" ";
 });
 
 function getrandnum()

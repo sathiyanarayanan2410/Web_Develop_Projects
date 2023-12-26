@@ -6,7 +6,7 @@ btn.addEventListener('click',function()
 {
     let col = getRandomHexa();
     document.body.style.backgroundColor = col;
-    select.textContent = col;
+    select.textContent = "\" " + col + " \"";
 });
 
 function getRandomHexa()
