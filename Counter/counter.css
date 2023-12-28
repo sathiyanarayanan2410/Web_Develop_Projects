@@ -2,41 +2,81 @@
     background: linear-gradient(90deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
 }
 #val{
-    font-size: 80px;
+    font-size: 5rem;
     color: blue;
 }
 #ctn{
-    font-size: 65px;
+    font-size: 4rem;
 }
 body #fdiv{
     background-color: rgb(160, 13, 228);
 }
+
 .container{
-    width:35%;
-    height:50%;
+    width:35dvw;
+    height:55dvh;
 }
+/* For specific width */
+
 @media screen and (max-width:1220px)
 {
     .container{
-        width:50%;
-        height:53%;
-    }
-    #reset{
-        position: absolute;
-        bottom:24%;
+        width:45dvw;
     }
 }
 
-@media screen and (max-width:950px)
+@media screen and (max-width:880px)
 {
     .container{
-        width: 60%;
+        width: 58dvw;
     }
 }
 
 @media screen and (max-width:700px)
 {
     .container{
-        width: 75%;
+        width: 85dvw;
+        height: 70dvh;
+    }
+    #reset{
+        position: absolute;
+        bottom: 15dvh;
+    }
+}
+
+@media screen and (max-width:300px)
+{
+    .container
+    {
+        width: 92dvw;
+    }
+    #ctn{
+        font-size: 3rem;
+    }
+    #val
+    {
+        font-size: 3rem;
+    }
+}
+
+/* For specific heights */
+
+@media screen and (700px<=height<=900px)
+{
+    .container{
+        height:65dvh;
+    }
+    #reset{
+        bottom:19dvh;
+    }
+}
+
+@media screen and (height>890px)
+{
+    .container{
+        height:60dvh;
+    }
+    #reset{
+        bottom:23dvh;
     }
 }
