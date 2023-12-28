@@ -1,0 +1,42 @@
+.hov:hover{
+    background: linear-gradient(90deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+}
+#val{
+    font-size: 80px;
+    color: blue;
+}
+#ctn{
+    font-size: 65px;
+}
+body #fdiv{
+    background-color: rgb(160, 13, 228);
+}
+.container{
+    width:35%;
+    height:50%;
+}
+@media screen and (max-width:1220px)
+{
+    .container{
+        width:50%;
+        height:53%;
+    }
+    #reset{
+        position: absolute;
+        bottom:24%;
+    }
+}
+
+@media screen and (max-width:950px)
+{
+    .container{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:700px)
+{
+    .container{
+        width: 75%;
+    }
+}
