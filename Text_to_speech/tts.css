@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(70deg,red,blue);
+}
+.input_section{
+    width:90%;
+    height: 40%;
+    resize:none;
+}
+p{
+    color:white;
+}
+span{
+    color:rgb(46, 190, 7);
+}
+
+input,button{
+    box-shadow: 4px 8px rgb(165, 164, 164);
+}
+
+#con{
+    height:70%;
+    width: 50%;
+}
+
+select{
+    width: 50%;
+}
+
+@media (max-width:800px)
+{
+   select{
+        width:80%;
+   }
+   #con{
+        width:80%;
+   }
+}
